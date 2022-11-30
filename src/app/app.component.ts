@@ -22,11 +22,11 @@ let cos: Cos[] = [
     wykonane: false,
   },
 ];
-// zapiszZadanie(nazwa:string, czyCos:string){
-//   let cos: Cos={
-//     name = nazwa,
-//     koniecZadania= czyCos,
-//     wykonane: false,
-//   };
-//   this.cos.push(cos);
-// };
+zapiszZadanie(nazwa:string,czyCos:string),{
+  let cos: Cos={
+    name,
+     koniecZadania,
+     wykonane: false,
+   };
+   this.Cos.push(cos);
+ };
