@@ -1,0 +1,11 @@
+<div id="body">
+  <div id="tekstup"><h1>Dodaj se liste zadań</h1></div>
+  <div id="pierdolki">
+    <input type="text" id="poletekst" #inputText />
+    <input type="date" id="date" #inputDate />
+    <button id="cos" (click)="zapiszZadanie(inputText.value,inputDate.value) inputText.value='';inputDate.value='';">Dodaj</button>
+  </div>
+</div>
+<div id="miejsce" *ngFor="let item of zadanie; let i = index">
+  {{ i + 1 }}{{ item.name }}-{{ item.koniecZadania }}
+</div>
